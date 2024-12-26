@@ -11,7 +11,7 @@
     "href": "posts/hw1.html",
     "title": "hw1: 12월26일 숙제",
     "section": "",
-    "text": "아래를 실행해보고 사용방법을 확인하라.\n\n1 1. head: 파일의 처음 몇 줄 출력\nhead -n 3 sample.txt"
+    "text": "아래를 실행해보고 사용방법을 확인하라. \n\n# 1. head: 파일의 처음 몇 줄 출력\nhead -n 3 sample.txt\n\n# 2. tail: 파일의 마지막 몇 줄 출력\ntail -n 3 sample.txt\n\n# 3. cat: 파일 내용 출력\ncat sample.txt\n\n# cat: 파일 합치기\ncat file1.txt file2.txt &gt; combined.txt\n\n# 4. df -h: 디스크 사용량 확인\ndf -h\n\n# 5. du -sh *: 디렉토리 및 파일 크기 확인\ndu -sh *\n\n# 6. nvidia-smi: GPU 상태 확인\nnvidia-smi\n\n# 7. ps aux: 현재 실행 중인 프로세스 확인\nps aux\n\n# 8. grep: 특정 문자열 검색\ngrep \"error\" sample.txt\n\n# 9. |: 파이프를 사용하여 명령어 결합\nps aux | grep python\n\n# 10. &gt;: 출력 결과를 파일로 저장\ndf -h &gt; disk_usage.txt\n\n# 11. which: 명령어의 실행 파일 경로 확인\nwhich python\n\n# 12. find: 파일 검색\nfind . -name \"sample.txt\"\n\n# 13. pwd: 현재 위치 확인\npwd \n\n\n  Cell In[1], line 1\n    아래를 실행해보고 사용방법을 확인하라.\n        ^\nSyntaxError: invalid syntax"
   },
   {
     "objectID": "posts/day1.html",
